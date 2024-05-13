@@ -2,20 +2,20 @@
 This project integrates Google's Gemini-Pro AI models into a Streamlit web application to provide a suite of AI-powered tools. Each tool leverages a specific aspect of the Gemini-Pro model to interact with different types of data, including chat, vision, PDFs, and YouTube videos. The application is designed to showcase the capabilities of AI in processing and generating content based on user inputs.
 
 ## Features
-1. **Chat Model ([chat.py](chat.py))**:
+1. **Chat Model ([chat.py](/src/chat.py))**:
    - Implements a chatbot using the Gemini-Pro model.
    - Users can interact with the chatbot, which processes and responds to queries in real-time.
 
-2. **Vision Model ([vision.py](vision.py))**:
+2. **Vision Model ([vision.py](/src/vision.py))**:
    - Utilizes the Gemini-Pro vision model to analyze images.
    - Users can upload images and receive descriptions or insights based on the visual content.
 
-3. **PDF Model ([pdf.py](pdf.py))**:
+3. **PDF Model ([pdf.py](/src/pdf.py))**:
    - Processes uploaded PDF documents to extract text.
    - Performs text chunking and vectorization for efficient search and retrieval.
    - Supports a question-answering feature where users can ask questions related to the content of the uploaded PDFs.
 
-4. **YouTube Model ([yt.py](yt.py))**:
+4. **YouTube Model ([yt.py](/src/yt.py))**:
    - Extracts transcripts from YouTube videos using the YouTube Transcript API.
    - Summarizes the video content using the Gemini-Pro text generation model, providing concise notes on the video's content.
 
